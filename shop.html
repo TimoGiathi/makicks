@@ -12,14 +12,19 @@
   </head>
   <body>
     <header class="header">
-      <img src="/images/logo.JPG" alt="logo" id="logo" />
-      <nav>
-        <ul class="navBar">
-          <li class="pointer navItems" id="menHub">Men</li>
-          <li class="pointer navItems" id="womenHub">Women</li>
-          <li class="pointer navItems" id="childrenHub">Children</li>
-        </ul>
-      </nav>
+      <div class="headerFlex">
+        <img src="/images/logo.JPG" alt="logo" id="logo" />
+        <nav>
+          <ul class="navBar">
+            <li class="pointer navItems" id="womenHub">Women</li>
+            <li class="pointer navItems" id="childrenHub">Children</li>
+          </ul>
+        </nav>
+        <div id="bubbleContainer">
+          <p id="bubble" class="#"></p>
+          <i class="fa-solid fa-cart-shopping fa-lg pointer" id="cart"></i>
+        </div>
+      </div>
       <div class="search-container">
         <input type="text" class="search-input" placeholder="Search Shoes" />
         <i
@@ -27,11 +32,8 @@
           style="color: #4d310a"
         ></i>
       </div>
-      <div>
-        <p id="bubble" class="#"></p>
-        <i class="fa-solid fa-cart-shopping fa-lg pointer" id="cart"></i>
-      </div>
     </header>
+
     <div class="dropDown display"></div>
     <main class="container">
       <div id="missingMatch">Match not found</div>

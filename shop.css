@@ -15,10 +15,11 @@ a {
   position: relative;
   bottom: 10px;
 }
-.header {
+.headerFlex {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 50px;
 }
 .shoes {
   width: 300px;
@@ -29,6 +30,7 @@ a {
 }
 .search-container {
   position: relative;
+  left: 40%;
 }
 input[type="text"] {
   width: 300px;
@@ -40,7 +42,7 @@ input[type="text"] {
   position: absolute;
   top: 44%;
   transform: translateY(-50%);
-  right: 10px;
+  left: 270px;
   cursor: pointer;
 }
 .navBar {
@@ -144,6 +146,7 @@ input[type="text"] {
   border-radius: 4%;
   color: black;
   font-family: "Kumbh Sans";
+  top: 100px;
 }
 .display {
   display: none;
@@ -162,7 +165,7 @@ input[type="text"] {
   padding: 1px;
   position: absolute;
   z-index: 2;
-  right: 50px;
+  right: 115px;
   top: 20px;
   display: none;
 }
@@ -180,4 +183,109 @@ input[type="text"] {
   font-size: 3rem;
   font-weight: 600;
   text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  #logo {
+    height: 70px;
+    width: 150px;
+    margin: 20px 5px 20px 5px;
+  }
+  .header {
+    max-width: 100%;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+  }
+  .headerFlex {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .shoes {
+    width: 150px;
+    height: 150px;
+  }
+  .shoes:hover {
+    filter: opacity(100%);
+  }
+  .section {
+    max-width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 0px;
+    place-items: center;
+  }
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  .navItems:hover {
+    opacity: 100%;
+    border-bottom: 3px solid rgba(12, 1, 1, 0.815);
+  }
+  #previousBtn {
+    margin: 10px 0px 20px 0px;
+    position: relative;
+    left: 1%;
+  }
+  #previousBtn:hover {
+    background-color: hsl(26, 100%, 55%);
+  }
+  .search-container {
+    max-width: 100%;
+    left: 20%;
+  }
+  input[type="text"] {
+    width: 250px;
+    padding: 9px;
+    border-radius: 9px;
+    border: 1px solid #808080;
+  }
+  .navItems:hover {
+    opacity: 100%;
+    border-bottom: 3px solid transparent;
+  }
+  .search-icon {
+    left: 220px;
+  }
+  .navBar {
+    gap: 2px;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .navBar {
+    gap: 10px;
+  }
+  #bubble {
+    position: relative;
+    right: -25px;
+    top: 10px;
+  }
+  .orderBtns:hover {
+    background-color: rgba(12, 1, 1, 0.815);
+  }
+  .dropDown {
+    position: absolute;
+    z-index: 2;
+    left: 20%;
+    background-color: #cfcdcd;
+    padding: 10px;
+    max-width: fit-content;
+    top: 100px;
+  }
+  .iconSpace {
+    position: relative;
+    left: 10px;
+    cursor: pointer;
+  }
+}
+#missingMatch {
+  font-size: 1.5rem;
 }
