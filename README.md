@@ -1,5 +1,7 @@
 # Makicks (Frontend)
 
+![Makicks Landing Page](/images/makicks%20landing%20page.PNG)
+
 ## A functional frontend website for showcasing and marketing shoes to potential customers
 
 This project is completely built by HTML,CSS and JavaScript and is a useful demo with the following functionality:
