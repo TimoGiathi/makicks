@@ -4,7 +4,7 @@
 
 ## A functional frontend website for showcasing and marketing shoes to potential customers
 
-This project is completely built by HTML,CSS and JavaScript and is a useful demo with the following functionality:
+This project is completely built by React.js,CSS with Vite and is a useful demo with the following functionality:
 
 - Showcasing the shoe variety in the store
 - Enabling the user to add their preference to a cart using an 'add to cart' button
