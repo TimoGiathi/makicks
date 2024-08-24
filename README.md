@@ -1,6 +1,6 @@
 # Makicks (Frontend)
 
-![Makicks Landing Page](/images/makicks%20landing%20page.PNG)
+![Makicks Landing Page](src/assets/makicks%20landing%20page.PNG)
 
 ## A functional frontend website for showcasing and marketing shoes to potential customers
 
