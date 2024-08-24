@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 function Header() {
   return (
     <header className="header">
-      <img src="" alt="Logo" />
+      <img src="src/assets/logo.JPG" alt="Logo" className="logo" />
       <Navbar />
     </header>
   );
