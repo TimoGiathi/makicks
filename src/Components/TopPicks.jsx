@@ -11,7 +11,7 @@ const PickedShoes = [
     id: crypto.randomUUID(),
   },
   {
-    src: "/src/assets/women/laura-chouette-unsplash.jpg",
+    src: "src/assets/women/laura-chouette-unsplash.jpg",
     alt: "Sneakers",
     id: crypto.randomUUID(),
   },
