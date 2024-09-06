@@ -1,7 +1,7 @@
 import PickedImage from "./PickedImage";
 const PickedShoes = [
   {
-    src: "src/assets/women/marcus-lewis-unsplash.jpg",
+    src: "../src/assets/women/marcus-lewis-unsplash.jpg",
     alt: "Heels",
     id: crypto.randomUUID(),
   },

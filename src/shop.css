@@ -53,9 +53,9 @@ input[type="text"] {
   font-family: "Kumbh Sans";
 }
 #cart {
-  margin-top: 15px;
+  margin-top: 40px;
   position: relative;
-  left: 10px;
+  left: 19px;
 }
 .pointer {
   cursor: pointer;
@@ -166,8 +166,8 @@ input[type="text"] {
   position: absolute;
   z-index: 2;
   right: 115px;
-  top: 20px;
-  display: none;
+  top: 17px;
+  display: block;
 }
 .priceSpan {
   padding-left: 4px;

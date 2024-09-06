@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-function ShopButton() {
+function ShopButton({ children }) {
   return (
-    <button type="button" className="pointer nextBtn">
+    <button type="button" className={`pointer nextBtn`}>
       <Link to="/shop" target="_blank">
-        View Shoes
+        {children}
       </Link>
     </button>
   );

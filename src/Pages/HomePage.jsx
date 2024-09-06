@@ -11,7 +11,7 @@ function HomePage() {
       <TopPicks />
       <AdComp />
       <Footer />
-      <ShopButton />
+      <ShopButton>next</ShopButton>
     </div>
   );
 }

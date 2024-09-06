@@ -1,5 +1,5 @@
 function Dropdown() {
-  return <div></div>;
+  return <div className="dropDown display"></div>;
 }
 
 export default Dropdown;

@@ -1,7 +1,9 @@
 import PropTypes from "prop-types";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCartArrowDown } from "@fortawesome/free-solid-svg-icons";
 
-ShoeDiv.propTypes={
-  children: PropTypes.object
+ShoeDiv.propTypes = {
+  children: PropTypes.object,
 };
 function ShoeDiv({ children }) {
   return (
@@ -10,7 +12,7 @@ function ShoeDiv({ children }) {
       <p className="shoeName">{children.shoeName}</p>
       <p className="price">{children.shoePrice}</p>
       <button type="button" className="orderBtns">
-        Add to cart
+        <FontAwesomeIcon icon={faCartArrowDown} /> Add to cart
       </button>
     </div>
   );
